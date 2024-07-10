@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/all.min.css">
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="./CSS/main.css">
+</head>
+
+<body>
+    <!-- /* (((((((((((((((((((((header section))))))))))))))))))))) */ -->
+
+    <header class=" position-relative">
+        <img class=" w-100 header-img" src="./wraper.png" alt="header-image">
+    </header>
+    <!-- /* (((((((((((((((((((((nav section))))))))))))))))))))) */ -->
+    <nav id="navBar" class="navbar navbar-expand-lg nav-bg w-75 m-auto rounded-4 p-2 sticky-top ">
+        <div class="container">
+            <div class="d-flex align-baseline align-items-center">
+                <img class="logo-img me-2" src="./logo-sm.png" alt="">
+                <a class="navbar-brand text-white text-uppercase" id="game-review" href="">Game Reviews</a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item me-2">
+                        <a class="nav-link active" id="home-btn" aria-current="page" href="#">MMORPG</a>
+                    </li>
+                    <li class="nav-item me-2">
+                        <a class="nav-link" href="#">SHOOTER</a>
+                    </li>
+                    <li class="nav-item me-2">
+                        <a class="nav-link" href="#">SAILING</a>
+                    </li>
+                    <li class="nav-item me-2">
+                        <a class="nav-link" href="#">PERMADEATH</a>
+                    </li>
+                    <li class="nav-item me-2">
+                        <a class="nav-link" href="#">SUPERHERO</a>
+                    </li>
+                    <li class="nav-item me-2">
+                        <a class="nav-link" href="#">PIXEL</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- /* (((((((((((((((((((((main section))))))))))))))))))))) */ -->
+    <section id="mainSite" class="games-section pt-5 ">
+        <div class="container">
+            <div id="rowContent" class="row g-4">
+                <div  class="col-lg-3 col-md-4 col-sm-2">
+                    <div class="card p-3">
+                        <img src="./thumbnail.jpg" class="card-img-top" alt="">
+                        <div class="card-body px-0">
+                            <div class="body-upper d-flex justify-content-between align-items-center align-baseline">
+                                <h3 class=" mt-0 h5 text-white fw-bold fs-6">Tarisland</h3>
+                                <button class="btn bg-primary text-white py-0 fw-bold px-2">Free</button>
+                            </div>
+                            <p class="card-text text-secondary fw-bold text-center">
+                                A,cross-platform,MMORPG,developed,by,Level,Infinite,and</p>
+                        </div>
+                        <div class="card-footer text-white fw-bold">
+                            <div class=" d-flex justify-content-between align-items-center">
+                                <span class=" p-1 rounded-3 ">MMORPG</span>
+                                <span class=" p-1 rounded-3 ">PC (Windows)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- /* (((((((((((((((((((((details section))))))))))))))))))))) */ -->
+    <section id="detailsContainer" class="details top-0 start-0 end-0 bottom-0 position-fixed pt-5 d-none">
+        <div  class="container">
+            <!-- <div class="details-header d-flex justify-content-between align-items-md-center">
+                <h1 class="text-white">Details Game</h1>
+                <i  class="fa-solid fa-x fs-4"></i>
+            </div>
+            <div class="game-details d-flex">
+                <div class="details-img">
+                    <img class="" src="./thumbnail.jpg" alt="">
+                </div>
+                <div class="details-text ms-3">
+                    <h3 class="text-white fw-bold">Title: Tarisland</h3>
+                    <p class="text-white fw-bold">Category: <span
+                            class=" p-1 fw-bold rounded-3 text-black">MMORPG</span></p>
+                    <p class="text-white fw-bold">Platform: <span
+                            class=" p-1 fw-bold rounded-3 text-black">Windows</span></p>
+                    <p class="text-white fw-bold">Status: <span class=" p-1 fw-bold rounded-3 text-black">Live</span>
+                    </p>
+                    <p class="text-white fw-bold">Tarisland is a free-to-play cross-platform MMORPG developed by Level
+                        Infinite and Published by Tencent. Available on PC and mobile devices, the game allows players
+                        to easily move between both, taking the game with them when they can’t be at their desk. The
+                        game is designed to appeal to players of MMOs like World of Warcraft, offering players nine
+                        playable classes and 18 specializations. Each class features an extensive talent tree system and
+                        can be customized. Players of existing MMOs will be familiar with the standard tank, DPS, and
+                        healer lineup, necessary for the game’s classic raid and dungeon system. Explore a vast game
+                        world and solve mysteries. Pick up various trades such as gathering, mining, and crafting, and
+                        sell your items on the auction house.</p>
+                    <button class="btn btn-outline-warning text-white fw-bold ">Show Game</button>
+                </div>
+            </div> -->
+        </div>
+    </section>
+
+
+
+
+
+    <script src="./JS/bootstrap.bundle.min.js"></script>
+    <script src="./JS/index.js" type="module"></script>
+</body>
+
+</html>

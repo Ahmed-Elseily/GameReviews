@@ -1,0 +1,112 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    scroll-behavior: smooth;
+    background-color: #272B30;
+    font-family: "Comic Neue";
+
+}
+a {
+    text-decoration: none;
+}
+/* (((((((((((((((((((((header section))))))))))))))))))))) */
+.header-img{
+    height: 30dvh;
+    object-fit: cover;
+}
+/* (((((((((((((((((((((nav section))))))))))))))))))))) */
+
+.navbar{
+    /* position: fixed;
+    left: 50%;
+    transform: translate(-50%, -50%); */ 
+      
+}
+.nav-bg{
+    background-color: #3A497B;
+    box-shadow: 0 0 7px black
+}
+.logo-img{
+    width: 50px;
+}
+#game-review{
+    font-family: "Comic Neue";
+    font-size: 24px;
+font-weight: 600;
+}
+
+.nav-link{
+    color: white;
+    transition: all 0.4s;
+    font-family: "Comic Neue";
+    font-size: 12.25px;
+    font-weight: 400;
+}
+.nav-link:hover{
+    color: RGB(0, 153, 204)
+    ;
+}
+#home-btn{
+    font-size: 12.25px;
+    font-weight: 400;
+    font-family: "Comic Neue";
+    color: RGB(0, 153, 204)
+}
+.card button{
+    font-size: 16px;
+}
+
+
+.card{
+    background-color: #272B30;
+    transition: all 0.5s;
+}
+.card-footer{
+    border-top-width: 100%;
+    padding-inline: 0px;
+}
+
+.card-footer span{
+    background-color: #32383E;
+    border: 1px solid #32383E;
+    font-size: 11px ;
+}
+
+.card:hover{
+    transform: scale(1.04, 1.04);
+
+}
+
+.col-lg-3{
+    transition: all 0.4s;
+    filter: grayscale(70%)
+    
+}
+.col-lg-3:hover{
+    cursor: pointer;
+    filter: grayscale(0%)
+}
+/* (((((((((((((((((((((details section))))))))))))))))))))) */
+
+.details span{
+    background-color: #0DCAF0;
+    border: 1px solid #0DCAF0;
+    font-size: 11px ;
+}
+.details i{
+    color: grey;
+    transition: all 0.2s;
+}
+.details i:hover{
+    color: white;
+    cursor: pointer;
+}
+
+
