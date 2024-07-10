@@ -13,100 +13,141 @@ body {
     font-family: "Comic Neue";
 
 }
+
 a {
     text-decoration: none;
 }
+
 /* (((((((((((((((((((((header section))))))))))))))))))))) */
-.header-img{
+.header-img {
     height: 30dvh;
     object-fit: cover;
 }
+
 /* (((((((((((((((((((((nav section))))))))))))))))))))) */
 
-.navbar{
+.navbar {
     /* position: fixed;
     left: 50%;
-    transform: translate(-50%, -50%); */ 
-      
+    transform: translate(-50%, -50%); */
+
 }
-.nav-bg{
+
+.nav-bg {
     background-color: #3A497B;
     box-shadow: 0 0 7px black
 }
-.logo-img{
+
+.logo-img {
     width: 50px;
 }
-#game-review{
+
+#game-review {
     font-family: "Comic Neue";
     font-size: 24px;
-font-weight: 600;
+    font-weight: 600;
 }
 
-.nav-link{
+.nav-link {
     color: white;
     transition: all 0.4s;
     font-family: "Comic Neue";
     font-size: 12.25px;
     font-weight: 400;
 }
-.nav-link:hover{
-    color: RGB(0, 153, 204)
-    ;
+
+.nav-link:hover {
+    color: RGB(0, 153, 204);
 }
-#home-btn{
+
+#home-btn {
     font-size: 12.25px;
     font-weight: 400;
     font-family: "Comic Neue";
     color: RGB(0, 153, 204)
 }
-.card button{
+
+.card button {
     font-size: 16px;
 }
 
 
-.card{
+.card {
     background-color: #272B30;
     transition: all 0.5s;
 }
-.card-footer{
+
+.card-footer {
     border-top-width: 100%;
     padding-inline: 0px;
 }
 
-.card-footer span{
+.card-footer span {
     background-color: #32383E;
     border: 1px solid #32383E;
-    font-size: 11px ;
+    font-size: 11px;
 }
 
-.card:hover{
+.card:hover {
     transform: scale(1.04, 1.04);
 
 }
 
-.col-lg-3{
+.col-lg-3 {
     transition: all 0.4s;
     filter: grayscale(70%)
-    
 }
-.col-lg-3:hover{
+
+.col-lg-3:hover {
     cursor: pointer;
     filter: grayscale(0%)
 }
+
 /* (((((((((((((((((((((details section))))))))))))))))))))) */
 
-.details span{
+.details span {
     background-color: #0DCAF0;
     border: 1px solid #0DCAF0;
-    font-size: 11px ;
+    font-size: 11px;
 }
-.details i{
+
+.details i {
     color: grey;
     transition: all 0.2s;
 }
-.details i:hover{
+
+.details i:hover {
     color: white;
     cursor: pointer;
 }
-
-
+.loader {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: inline-block;
+    border-top: 4px solid #FFF;
+    border-right: 4px solid transparent;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+  }
+  .loader::after {
+    content: '';  
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border-left: 4px solid #FF3D00;
+    border-bottom: 4px solid transparent;
+    animation: rotation 0.5s linear infinite reverse;
+  }
+  @keyframes rotation {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  } 
